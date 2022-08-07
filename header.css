@@ -1,0 +1,103 @@
+header{
+    margin-bottom: .2rem;
+}
+
+.main-nav{
+    font-family: sans-serif;
+    padding: .5rem;
+    background: #44b;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+::marker{
+    content: none;
+    
+}
+
+.nav-list{
+    background: #44b;
+    display:flex;
+    flex-direction:row;
+}
+
+.nav-list a{
+    padding: .3rem;
+    border-right: 1px solid black;
+}
+
+.nav-list li:last-of-type a{
+    border: none;
+}
+
+.sub-nav{
+    display:flex;
+    flex-grow: 1;
+    padding-top: .4rem;
+    flex-wrap: wrap;
+    padding-bottom: .4rem;
+    
+}
+
+.search-form{
+    background: #44b;
+    display:flex;
+    flex-grow: 1;
+    padding: .2rem;
+}
+
+button{
+    background: #44b;
+    padding: .2rem;
+}
+
+input{
+    font-family: sans-serif;
+    font-size:large;
+    text-align: center;
+    border-bottom: 2px solid #44b;
+    flex-grow:1;
+}
+
+.company-name{
+    font-size: 30px;
+    padding: .5rem;
+    padding-right: 2em;
+    padding-left: 2em;
+    color: black;
+}
+
+.credit-offer{
+    background: red;
+    color:white;
+    font-family:sans-serif;
+    font-weight:100;
+    padding: .5rem;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.full-width{
+    display:none;
+
+}
+
+.short-width{
+    display:flex;
+}
+
+.sub-nav{
+    background:#44b;
+    display:flex;
+}
+
+@media screen and (min-width:768px){
+    .full-width{
+        display:flex;
+    }
+    .short-width{
+        display:none;
+    }
+}
